@@ -1,0 +1,12 @@
+#!/bin/bash
+#la première ligne précise avec quoi il faut excécuter en donnant le chemin
+
+NAME=$1
+
+echo "Mon premier script"
+
+echo $NAME
+
+echo "Aimez-vous le PHP ?"
+read RESPONSE
+echo "votre réponse : $RESPONSE"
